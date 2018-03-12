@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+char e[50],o[50],str[40];
+int i,j,k;
+printf("enter the string:");
+gets(str);
+while(str[i]!='\0')
+{
+if(i%2==0)
+e[j++]=str[i];
+else
+o[k++]=str[i];
+}
+printf("the odd position and even  position  string is %s%s",o,e);
+getch();
+}
